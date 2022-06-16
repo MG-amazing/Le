@@ -1,4 +1,4 @@
-package 多线程;
+package 多线程.线程创建;
 
 //使用多线程可以继承Thread类来实现
 //此方法代码简单,容易理解
@@ -21,7 +21,7 @@ class MyThread extends Thread {
      */
     public void run() {
         for (int i = 0; i < 5; i++) {
-            System.out.println("字线程输出" + i);
+            System.out.println("子线程输出" + i);
         }
     }
 }

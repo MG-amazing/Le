@@ -1,10 +1,13 @@
-package 多线程;
+package 多线程.线程创建;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 
 /**
  * 目标:实现Callable接口,结合FutureTask完成
+ * 优点实现接口,可以继续继承和实现接口,扩展性极强.
+ * 可以在线程执行完毕后获取线程执行的结果
+ * 代码逻辑更加复杂
  */
 public class ThreadDome3 {
     public static void main(String[] args) {
