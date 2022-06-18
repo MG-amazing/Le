@@ -1,4 +1,4 @@
-package 多线程.线程同步;
+package 多线程.Lock锁;
 
 public class ThreadDome1 {
     public static void main(String[] args) {
